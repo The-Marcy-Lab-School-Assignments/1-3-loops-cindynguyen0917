@@ -24,9 +24,11 @@ const countdown5to0 = () => {
   }
 };
 
-const loopUpToNum = () => {
-};
-
+const loopUpToNum = (num) => {
+  for (let i = 0; i < num; i++) {
+    console.log(i)
+  }
+}
 const fizzbuzz = () => {
 };
 
